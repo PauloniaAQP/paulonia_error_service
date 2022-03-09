@@ -4,7 +4,8 @@ import 'package:paulonia_error_service/paulonia_error_service.dart';
 import 'package:catcher/catcher.dart';
 
 void main() {
-  Map<String, CatcherOptions> catcherConf = PauloniaErrorService.getCatcherConfig();
+  Map<String, CatcherOptions> catcherConf =
+      PauloniaErrorService.getCatcherConfig();
   Catcher(
     rootWidget: MyApp(),
     debugConfig: catcherConf[CatcherConfig.DEBUG],
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({Key? key, required this.title}) : super(key: key);
 
   final String title;
 
@@ -37,7 +38,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -53,13 +53,14 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             MaterialButton(
               child: Text('Error!!'),
-              onPressed: (){
-                PauloniaErrorService.sendErrorWithoutStacktrace("This is an error");
+              onPressed: () {
+                PauloniaErrorService.sendErrorWithoutStacktrace(
+                    "This is an error");
               },
             ),
             MaterialButton(
               child: Text('Error 2!!'),
-              onPressed: (){
+              onPressed: () {
                 divide();
               },
             ),
@@ -69,15 +70,12 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  double divide(){
-    try{
-      return 10 / null;
-    }
-    catch(error, stacktrace){
+  double divide() {
+    try {
+      return 10 / 0;
+    } catch (error, stacktrace) {
       PauloniaErrorService.sendError(error, stacktrace);
       return 0;
     }
-
   }
-
 }
