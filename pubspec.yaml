@@ -7,15 +7,16 @@ homepage: https://paulonia.dev
 repository: https://github.com/PauloniaAQP/paulonia_error_service
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
-  flutter: ">=1.17.0"
+  sdk: '>=2.19.2 <3.0.0'
+  flutter: ">=3.0.0"
 
 dependencies:
-  catcher: ^0.6.9
+  catcher:
+    git:
+      url: https://github.com/PauloniaAQP/catcher
   flutter:
     sdk: flutter
-  paulonia_utils: ^0.3.0
-  sentry: ^6.3.0
+  sentry: ^6.22.0
 
 dev_dependencies:
   flutter_test:

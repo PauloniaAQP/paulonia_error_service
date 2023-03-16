@@ -2,7 +2,6 @@ library paulonia_error_service;
 
 import 'package:catcher/catcher.dart';
 import 'package:paulonia_error_service/constants.dart';
-import 'package:paulonia_utils/paulonia_utils.dart';
 import 'package:sentry/sentry.dart';
 
 class PauloniaErrorService {
@@ -20,7 +19,6 @@ class PauloniaErrorService {
     try {
       throw (error);
     } catch (_error, stacktrace) {
-      if (PUtils.isOnTest()) throw (error);
       Catcher.reportCheckedError(error, stacktrace);
     }
   }
