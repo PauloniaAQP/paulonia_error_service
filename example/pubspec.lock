@@ -20,10 +20,11 @@ packages:
   catcher:
     dependency: transitive
     description:
-      name: catcher
-      sha256: c65c2fe4045196a0e0b02afc1b423c562fab4db8fa37428eae23d135a6106de2
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: mailer_update
+      resolved-ref: c459f360038b723a81987f34a4fdf5a3301c1efe
+      url: "https://github.com/PauloniaAQP/catcher"
+    source: git
     version: "0.7.0"
   characters:
     dependency: transitive
@@ -125,18 +126,18 @@ packages:
     dependency: transitive
     description:
       name: device_info_plus
-      sha256: "8d99246809e63d93e4e68fade79495d81f445ad735bde2b129b19c0adddcaf1a"
+      sha256: f52ab3b76b36ede4d135aab80194df8925b553686f0fa12226b4e2d658e45903
       url: "https://pub.dev"
     source: hosted
-    version: "7.0.1"
+    version: "8.2.2"
   device_info_plus_platform_interface:
     dependency: transitive
     description:
       name: device_info_plus_platform_interface
-      sha256: "8b8b65e598b84fdb82c26cf9b3f05a6c4978636e99b0c070bae5905a24728199"
+      sha256: d3b01d5868b50ae571cd1dc6e502fc94d956b665756180f7b16ead09e836fd64
       url: "https://pub.dev"
     source: hosted
-    version: "6.0.1"
+    version: "7.0.0"
   dio:
     dependency: transitive
     description:
@@ -260,10 +261,10 @@ packages:
     dependency: transitive
     description:
       name: mailer
-      sha256: "8bf3bcff05aa75756b527cfee120cb04aeab1bb8abd26cb0a2e9956fac6374f0"
+      sha256: "57f6dd1496699999a7bfd0aa6be0645384f477f4823e16d4321c40a434346382"
       url: "https://pub.dev"
     source: hosted
-    version: "5.1.0"
+    version: "6.0.1"
   matcher:
     dependency: transitive
     description:
@@ -343,14 +344,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.3.0"
-  pedantic:
-    dependency: transitive
-    description:
-      name: pedantic
-      sha256: "67fc27ed9639506c856c840ccce7594d0bdcd91bc8d53d6e52359449a1d50602"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.11.1"
   plugin_platform_interface:
     dependency: transitive
     description:

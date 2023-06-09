@@ -13,7 +13,7 @@ environment:
 dependencies:
   catcher:
     git:
-      url: https://github.com/ChrisChV/catcher
+      url: https://github.com/PauloniaAQP/catcher
       ref: mailer_update
   flutter:
     sdk: flutter
