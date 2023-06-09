@@ -300,10 +300,10 @@ packages:
     dependency: "direct main"
     description:
       name: paulonia_utils
-      sha256: b0f62d8c20b626e8b2e31e85f4d47da065d233f8eed7ccc176d362a9a7dd8868
+      sha256: ca3465e86c27bde08fc42142aac76aa4731b588be587286ea7f03df259c02e52
       url: "https://pub.dev"
     source: hosted
-    version: "0.4.0"
+    version: "0.3.0"
   pedantic:
     dependency: transitive
     description:
