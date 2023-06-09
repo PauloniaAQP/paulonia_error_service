@@ -11,7 +11,10 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
-  catcher: ^0.7.0
+  catcher:
+    git:
+      url: https://github.com/ChrisChV/catcher
+      ref: mailer_update
   flutter:
     sdk: flutter
   paulonia_utils: ^0.3.0
