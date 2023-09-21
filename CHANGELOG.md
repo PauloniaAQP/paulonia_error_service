@@ -1,3 +1,7 @@
+## [0.5.0]
+
+- Dependencies updated to Flutter 3.13
+
 ## [0.4.0]
 
 - Dependencies updated

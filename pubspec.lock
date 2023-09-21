@@ -18,7 +18,7 @@ packages:
     source: hosted
     version: "2.1.1"
   catcher:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: catcher
       sha256: c65c2fe4045196a0e0b02afc1b423c562fab4db8fa37428eae23d135a6106de2
@@ -89,14 +89,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.3"
-  cupertino_icons:
-    dependency: "direct main"
-    description:
-      name: cupertino_icons
-      sha256: d57953e10f9f8327ce64a508a355f0b1ec902193f66288e8cb5070e7c47eeb2d
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.6"
   device_info:
     dependency: transitive
     description:
@@ -166,14 +158,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_lints:
-    dependency: "direct dev"
-    description:
-      name: flutter_lints
-      sha256: b543301ad291598523947dc534aaddc5aaad597b709d2426d3a0e0d44c5cb493
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.4"
   flutter_mailer:
     dependency: transitive
     description:
@@ -224,14 +208,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.17.0"
-  lints:
-    dependency: transitive
-    description:
-      name: lints
-      sha256: a2c3d198cb5ea2e179926622d433331d8b58374ab8f29cdda6e863bd62fd369c
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.1"
   logging:
     dependency: transitive
     description:
@@ -312,15 +288,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.3"
-  paulonia_error_service:
-    dependency: "direct main"
-    description:
-      path: ".."
-      relative: true
-    source: path
-    version: "0.4.0"
   paulonia_utils:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: paulonia_utils
       sha256: b0f62d8c20b626e8b2e31e85f4d47da065d233f8eed7ccc176d362a9a7dd8868
@@ -344,7 +313,7 @@ packages:
     source: hosted
     version: "2.1.6"
   sentry:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: sentry
       sha256: a1529c545fcbc899e5dcc7c94ff1c6ad0c334dfc99a3cda366b1da98af7c5678

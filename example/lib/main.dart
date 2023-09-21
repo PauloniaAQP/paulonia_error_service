@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
             MaterialButton(
               child: Text('Error 2!!'),
               onPressed: () {
-                divide();
+                print(divide());
               },
             ),
           ],
@@ -72,7 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   double divide() {
     try {
-      return 10 / 0;
+      throw("This is an second error");
     } catch (error, stacktrace) {
       PauloniaErrorService.sendError(error, stacktrace);
       return 0;
